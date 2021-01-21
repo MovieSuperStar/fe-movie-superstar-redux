@@ -50,10 +50,10 @@ function TopBar(props) {
           >
             <MenuItem
               component={Link}
-              to="/Project"
+              to="/Search"
               onClick={handleClose}
             >
-              Project
+              Search
             </MenuItem>
             <MenuItem
               onClick={handleClose}
