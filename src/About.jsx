@@ -3,7 +3,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import TopBar from './TopBar';
 
-
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -11,6 +10,15 @@ const useStyles = makeStyles((theme) => ({
   hi: {
     zIndex: -1,
   },
+  scroller: {
+    height: '300px',
+    overflowY: 'scroll',
+    scrollSnapType: 'y mandatory',
+    section: {
+      scrollSnapAlign: 'start',
+    },
+  },
+  
   paper: {
     padding: theme.spacing(2),
     textAlign: 'left',
@@ -50,8 +58,7 @@ function About() {
   return (
     <>
       <CssBaseline />
-      <TopBar whereAt="About" />
-
+      <TopBar whereAt="About" /
     </>
   );
 }
