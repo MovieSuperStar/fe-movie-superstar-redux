@@ -121,7 +121,7 @@ function AboutHowIAm() {
               className={classes.paper}
               variant="h5"
             >
-              For example, I have continusouly worked on this SuperStar app
+              For example, I have continuously worked on this Movie SuperStar app
               <Grid container direction="column">
                 <Grid item>
                   <Button
