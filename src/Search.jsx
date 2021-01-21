@@ -46,8 +46,6 @@ function Search() {
       .then((data) => {
         setLoading(false);
         setSearchedMovies(data);
-      })
-      .catch((error) => {
       });
   }
 
