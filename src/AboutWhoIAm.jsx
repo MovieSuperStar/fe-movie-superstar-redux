@@ -6,6 +6,7 @@ import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 import { lighten, makeStyles } from '@material-ui/core/styles';
 import Lottie from 'react-lottie';
+import Sticky from 'react-stickynode';
 import outdoorJosh from './outdoorJosh.jpg';
 import thinkingDeveloperDataLight from './assets/thinkingDeveloperDataLight.json';
 import turingFull from './assets/turingFull.png';
@@ -13,6 +14,8 @@ import turingFullAlt from './assets/turingFullAlt.png';
 import codeForDenver from './assets/codeForDenver2.png'
 import Button from '@material-ui/core/Button';
 import { Brightness1 } from '@material-ui/icons';
+
+import CoffeeMeet from './CoffeeMeet';
 
 const defaultOptions = {
   loop: true,
