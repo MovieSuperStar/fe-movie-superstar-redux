@@ -6,12 +6,8 @@ import {
   Switch,
   Route,
 } from 'react-router-dom';
-import About from './About';
-import Project from './Project';
 import Search from './Search';
 import Home from './Home';
-import Site from './Site';
-import PanelSnap from 'panelsnap'
 
 const styles = (theme) => ({
   root: {
@@ -25,27 +21,15 @@ const styles = (theme) => ({
   },
 });
 function App() {
-
-  // const [activePanelName, setActivePanelName] = userState(undefined)
-
-  // useEffect(() => {
-  //   const panelSpanInstance = new PanelSnap({
-  //     panelSelector: '> #root > #app > section'
-  //   })
-  // }, []);
-  
   return (
     <>
       <Router>
         <Switch>
-          <Route path="/project">
-            <Project />
-          </Route>
-          <Route path="/site">
-            <Site />
+          <Route path="/search">
+            <Search />
           </Route>
           <Route path="/">
-            <About />
+            <Home />
           </Route>
         </Switch>
       </Router>
