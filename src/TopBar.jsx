@@ -9,12 +9,8 @@ import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import {
   BrowserRouter as
-  Switch,
-  Route,
   Link,
 } from 'react-router-dom';
-// import Search from './Search';
-// import About from './About';
 
 function TopBar(props) {
   const useStyles = makeStyles(() => ({
@@ -70,9 +66,6 @@ function TopBar(props) {
               About Site
             </MenuItem>
           </Menu>
-          <Typography variant="h6" color="inherit">
-            {props.whereAt}
-          </Typography>
         </Toolbar>
       </AppBar>
     </>
