@@ -1,6 +1,6 @@
 
 # View Here
-[FrontEnd](http://femoviesuperstarredux-env.eba-daap5ekb.us-east-1.elasticbeanstalk.com/#/)
+[FrontEnd](https://fe-movie-superstar-reduc.s3.amazonaws.com/index.html#/)
 
 ![giphy](https://media.giphy.com/media/sz5deIKVOg2YUeAKPh/giphy.gif)
 ## Local Installation Instructions
