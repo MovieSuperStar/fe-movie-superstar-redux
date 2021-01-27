@@ -136,7 +136,7 @@ function Home() {
             style={{ position: 'absolute', bottom: 0 }}
           >
             <Button
-              href="/search"
+              href="/Search"
               variant="contained"
               color="primary"
               className={classes.buttonStyle}
