@@ -51,20 +51,6 @@ function TopBar(props) {
             >
               Search
             </MenuItem>
-            <MenuItem
-              onClick={handleClose}
-              component={Link}
-              to="/About"
-            >
-              About This Dev
-            </MenuItem>
-            <MenuItem
-              onClick={handleClose}
-              component={Link}
-              to="/Site"
-            >
-              About Site
-            </MenuItem>
           </Menu>
         </Toolbar>
       </AppBar>
