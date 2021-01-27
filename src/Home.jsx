@@ -83,13 +83,6 @@ function Home() {
             <MenuItem
               onClick={handleClose}
               component={Link}
-              to="about"
-            >
-              About
-            </MenuItem>
-            <MenuItem
-              onClick={handleClose}
-              component={Link}
               to="home"
             >
               Home
